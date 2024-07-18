@@ -32,7 +32,7 @@ pipeline{
 
         }
         
-        /*
+        
         stage("Build Application"){
             steps {
                 sh "mvn clean package"
@@ -46,7 +46,7 @@ pipeline{
             }
 
         }
-        
+        /*
         stage("Sonarqube Analysis") {
             steps {
                 script {
